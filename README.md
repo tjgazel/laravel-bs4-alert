@@ -1,12 +1,9 @@
 # Bootstrap 4 alerts for laravel 5.*
+[![Latest Stable Version](https://poser.pugx.org/tjgazel/laravel-bs4-alert/v/stable)](https://packagist.org/packages/tjgazel/laravel-bs4-alert)
+[![License](https://poser.pugx.org/tjgazel/laravel-bs4-alert/license)](https://github.com/tjgazel/laravel-bs4-alert/blob/master/LICENSE)
+[![Total Downloads](https://poser.pugx.org/tjgazel/laravel-bs4-alert/downloads)](https://packagist.org/packages/tjgazel/laravel-bs4-alert)
 
-<p align="center">
-    <a href="https://packagist.org/packages/tjgazel/laravel-bs4-alert"><img src="https://poser.pugx.org/tjgazel/laravel-bs4-alert/v/stable.svg"></a>
-    <a href="https://github.com/tjgazel/laravel-bs4-alert/blob/master/LICENSE"><img src="https://poser.pugx.org/tjgazel/laravel-bs4-alert/license.svg"></a>
-    <a href="https://packagist.org/packages/tjgazel/laravel-bs4-alert"><img src="https://poser.pugx.org/tjgazel/laravel-bs4-alert/d/total.svg"></a>
-</p>
-
-<p align="center"><img src="bs4-alert.png"></p>
+<img src="bs4-alert.png">
 
 <br>
 
