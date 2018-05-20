@@ -23,12 +23,12 @@
 <a name="instalation"></a>
 ## Installation
 
-1. Run `composer require tjgazel/laravel-bs4-alert` to include this in your project.<br>
+**1)** Run `composer require tjgazel/laravel-bs4-alert` to include this in your project.<br>
 `Laravel 5.5 or later` will automatically discover the provider and the alias.
 
 <br>
 
-2. **Optional:** Laravel 5.4 and below <br>
+**2)** *Optional:* Laravel 5.4 and below <br>
 Add `TJGazel\Bs4Alert\Bs4AlertServiceProvider::class` to `providers` in `config/app.php` <br> 
 Add `'Bs4Alert' => TJGazel\Bs4Alert\Facades\Bs4Alert::class` to `aliases` in `config/app.php`. <br>
 ```
@@ -46,10 +46,10 @@ Add `'Bs4Alert' => TJGazel\Bs4Alert\Facades\Bs4Alert::class` to `aliases` in `co
 
 <br>
 
-3. Run `php artisan vendor:publish --provider="TJGazel\Bs4Alert\Bs4AlertServiceProvider" --tag="config"`
+**3)** Run `php artisan vendor:publish --provider="TJGazel\Bs4Alert\Bs4AlertServiceProvider" --tag="config"`
 to publish the config file in `config/bs4-alert.php`. <br>
 
-4. Include `@include('bs4-alert::template')` somewhere in your template..
+**4)** Include `@include('bs4-alert::template')` somewhere in your template..
 ```
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
@@ -76,7 +76,7 @@ to publish the config file in `config/bs4-alert.php`. <br>
 
 <br>
 
-5. **Optional:** Run `php artisan vendor:publish --provider="TJGazel\Bs4Alert\Bs4AlertServiceProvider" --tag="template"`
+**5)** *Optional:* Run `php artisan vendor:publish --provider="TJGazel\Bs4Alert\Bs4AlertServiceProvider" --tag="template"`
 to publish the template view. <br>
 Modify the published template located at `resources/views/vendor/bs4-alert/template.php` to your liking.
 ```
@@ -99,7 +99,7 @@ Modify the published template located at `resources/views/vendor/bs4-alert/templ
 
  <br>
 
-6. **Optional:** Modify the publish configuration file locate at `config/bs4-alert.php` to your liking.
+**6)** *Optional:* Modify the publish configuration file locate at `config/bs4-alert.php` to your liking.
 ```
 <?php
 
